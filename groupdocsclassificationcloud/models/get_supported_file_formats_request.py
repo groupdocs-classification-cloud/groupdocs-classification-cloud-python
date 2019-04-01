@@ -1,3 +1,4 @@
+# coding: utf-8
 # --------------------------------------------------------------------------------
 # <copyright company="GroupDocs" file="get_supported_file_formats_request.py">
 #   Copyright (c) 2019 GroupDocs.Classification for Cloud

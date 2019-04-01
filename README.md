@@ -1,5 +1,5 @@
-# groupdocs-classification-cloud-python
-This repository contains GroupDocs.Classification Cloud SDK for Python source code. This SDK allows you to work with GroupDocs.Classification Cloud REST APIs in your Python applications quickly and easily, with zero initial cost.
+# groupdocs-classification-cloud-sdk-py
+This repository contains GroupDocs.Classification Cloud (https://products.groupdocs.cloud/classification) SDK for Python source code. This SDK allows you to work with GroupDocs.Classification Cloud REST APIs in your Python applications quickly and easily, with zero initial cost.
 
 # Key Features
 * Classification of texts
@@ -76,7 +76,12 @@ classification.classify_raw_text()
 ```
 
 [Test](test/) contain various examples of using the SDK.
-Please put your credentials into [Configuration](groupdocsclassificationcloud/configuration.py).
+Please put your credentials into [Configuration](groupdocsclassificationcloud/configuration.py) or use Settings/servercreds.json file:
+{
+  "BaseUrl":"https://api.groupdocs.cloud",
+  "AppSid":"Your App Sid",
+  "AppKey":"Your App Key"
+}
 
 ## Dependencies
 - Python 2.7 and 3.4+

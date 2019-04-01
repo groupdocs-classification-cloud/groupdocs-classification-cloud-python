@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "groupdocs-classification-cloud"
-VERSION = "19.3"
+VERSION = "19.3.0"
 # To install the library, run the following
 #
 # python setup.py install
@@ -19,7 +19,7 @@ setup(
     version=VERSION,
     description="GroupDocs.Classification Cloud API References",
     author="GroupDocs Classification",
-    url="https://github.com/groupdocs-classification-cloud/",
+    url="https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
@@ -31,7 +31,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    keywords=["groupdocs", "python", "groupdocs cloud", "classification", "iab2", "taxonomy"],
+    keywords=["groupdocs", "python", "groupdocs cloud", "classification", "documents classification", "iab2", "taxonomy"],
     install_requires=REQUIRES,
     tests_require=TEST_REQUIRES,
     packages=find_packages(),

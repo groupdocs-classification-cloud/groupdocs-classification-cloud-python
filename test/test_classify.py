@@ -46,7 +46,3 @@ class TestClassify(BaseTestContext):
             request = ClassifyRequest(BaseRequest(document=FileInfo(name=filename, folder=self.remote_test_folder)))
             result = self.classification_api.classify(request)
             print("Result {}".format(result))
-
-        request = ClassifyRequest(BaseRequest("Try text classification"), 3)
-        result = self.classification_api.classify(request)
-        print(result)

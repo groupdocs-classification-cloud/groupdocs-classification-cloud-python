@@ -1,3 +1,4 @@
+# coding: utf-8
 # --------------------------------------------------------------------------------
 # <copyright company="GroupDocs" file="classify_request.py">
 #   Copyright (c) 2019 GroupDocs.Classification for Cloud

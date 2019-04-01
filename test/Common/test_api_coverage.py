@@ -1,4 +1,4 @@
-#
+# coding: utf-8
 # --------------------------------------------------------------------------------------------------------------------
 # <copyright company="Aspose" file="test_api_coverage.py">
 #   Copyright (c) 2019 GroupDocs.Classification for Cloud
