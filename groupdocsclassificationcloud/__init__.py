@@ -1,0 +1,23 @@
+# coding: utf-8
+
+# flake8: noqa
+
+from __future__ import absolute_import
+
+# import apis into sdk package
+from groupdocsclassificationcloud.apis.classification_api import ClassificationApi
+
+# import ApiClient
+from groupdocsclassificationcloud.api_client import ApiClient
+from groupdocsclassificationcloud.configuration import Configuration
+# import models into sdk package
+from groupdocsclassificationcloud.models.base_request import BaseRequest
+from groupdocsclassificationcloud.models.base_response import BaseResponse
+from groupdocsclassificationcloud.models.classification_result import ClassificationResult
+from groupdocsclassificationcloud.models.file_info import FileInfo
+from groupdocsclassificationcloud.models.format import Format
+from groupdocsclassificationcloud.models.format_collection import FormatCollection
+from groupdocsclassificationcloud.models.classification_response import ClassificationResponse
+
+from groupdocsclassificationcloud.models.classify_request import ClassifyRequest
+from groupdocsclassificationcloud.models.get_supported_file_formats_request import GetSupportedFileFormatsRequest
