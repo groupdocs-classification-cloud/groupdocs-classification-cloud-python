@@ -1,14 +1,17 @@
-# groupdocs-classification-cloud-python
+# GroupDocs.Classification Cloud SDK for Python
+
 This repository contains GroupDocs.Classification Cloud SDK for Python source code. This SDK allows you to work with GroupDocs.Classification Cloud REST APIs in your Python applications quickly and easily, with zero initial cost.
 
 # Key Features
+
 * Classification of texts
 * Classification of documents
 
 See [API Reference](https://apireference.groupdocs.cloud/classification/) for full API specification.
 
 ## How to use the SDK?
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [PyPi](https://pypi.org/project/groupdocsclassificationcloud) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/classification/Available+SDKs).
+
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [PyPi](https://pypi.org/project/groupdocs-classification-cloud/) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/classification/).
 
 ### Prerequisites
 
@@ -82,5 +85,4 @@ Please put your credentials into [Configuration](groupdocsclassificationcloud/co
 - Python 2.7 and 3.4+
 - referenced packages (see [here](setup.py) for more details)
 
-## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/classification).
+[Home](https://www.groupdocs.cloud/) | [Docs](https://docs.groupdocs.cloud/classification/) | [Demos](https://products.groupdocs.app/classification/family) | [API Reference](https://apireference.groupdocs.cloud/classification/) | [Blog](https://blog.groupdocs.cloud/category/classification/) | [Free Support](https://forum.groupdocs.cloud/c/classification) | [Free Trial](https://purchase.groupdocs.cloud/trial)
