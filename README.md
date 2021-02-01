@@ -1,12 +1,84 @@
-# GroupDocs.Classification Cloud SDK for Python
+![](https://img.shields.io/badge/api-v1.0-lightgrey) ![PyPI](https://img.shields.io/pypi/v/groupdocs-classification-cloud) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/groupdocs-classification-cloud) ![PyPI - Implementation](https://img.shields.io/pypi/implementation/groupdocs-classification-cloud) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/groupdocs-classification-cloud) [![GitHub license](https://img.shields.io/github/license/groupdocs-classification-cloud/groupdocs-classification-cloud-python)](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python/blob/master/LICENSE)
+
+# Python SDK for GroupDocs.Classification Cloud REST API
 
 This repository contains GroupDocs.Classification Cloud SDK for Python source code. This SDK allows you to work with GroupDocs.Classification Cloud REST APIs in your Python applications quickly and easily, with zero initial cost.
 
-# Key Features
+# Classification Processing Features
+- Perform raw text classification.
+- Perform document classification for the supported file formats.
+- Perform multilingual sentiment analysis (binary or 3-classes) in English, Chinese, Spanish, and German.
 
-* Classification of texts
-* Classification of documents
 
+
+## New Features & Enhancements Version 20.11
+
+- Batch text classification was added to API. Now up to 10 texts can be classified in one request.
+- Sentiment3 taxonomy (Negative/Neutral/Positive) is supported now.
+
+## Supported Document Formats
+
+- Microsoft Word: DOC, DOCX, DOCM, DOT, DOTX, DOTM
+- OpenOffice: ODT, OTT
+- Portable: PDF
+- Other: RTF, TXT
+
+### Supported IAB-2 Taxonomy
+
+- Automotive,
+- Books_and_Literature,
+- Business_and_Finance,
+- Careers,
+- Education,
+- Events_and_Attractions,
+- Family_and_Relationships,
+- Fine_Art,
+- Food_&_Drink,
+- Healthy_Living,
+- Hobbies_&_Interests,
+- Home_&_Garden,
+- Medical_Health,
+- Movies,
+- Music_and_Audio,
+- News_and_Politics,
+- Personal_Finance,
+- Pets,
+- Pop_Culture,
+- Real_Estate,
+- Religion_&_Spirituality,
+- Science,
+- Shopping,
+- Sports,
+- Style_&_Fashion,
+- Technology_&_Computing,
+- Television,
+- Travel,
+- Video_Gaming
+
+### Supported Documents Taxonomy
+
+- ADVE - advertisements, brochures.
+- Email
+- Form
+- Letter
+- Memo - memorandums.
+- News - articles, including news articles.
+- Invoice
+- Report
+- Resume
+- Scientific - scientific papers.
+- Other - the other classes of documents or cases where the classifier is not sure.
+
+### Sentiment Taxonomy
+
+- Negative
+- Positive
+-
+### Sentiment3 Taxonomy`
+
+- Negative
+- Neutral
+- Positive
 See [API Reference](https://apireference.groupdocs.cloud/classification/) for full API specification.
 
 ## How to use the SDK?
@@ -84,5 +156,7 @@ Please put your credentials into [Configuration](groupdocsclassificationcloud/co
 ## Dependencies
 - Python 2.7 and 3.4+
 - referenced packages (see [here](setup.py) for more details)
+
+## GroupDocs.Classification Cloud Resources
 
 [Home](https://www.groupdocs.cloud/) | [Docs](https://docs.groupdocs.cloud/classification/) | [Demos](https://products.groupdocs.app/classification/family) | [API Reference](https://apireference.groupdocs.cloud/classification/) | [Blog](https://blog.groupdocs.cloud/category/classification/) | [Free Support](https://forum.groupdocs.cloud/c/classification) | [Free Trial](https://purchase.groupdocs.cloud/trial)
