@@ -121,34 +121,30 @@ import groupdocsclassificationcloud
 ## Getting Started
 
 Please follow the [installation procedure](#installation--usage) and then run the following:
+## Get Supported File Formats for Classification
 
 ```python
-import os
-from groupdocsclassificationcloud.configuration import Configuration
-from groupdocsclassificationcloud.apis.classification_api import ClassificationApi, classify_request
-from groupdocsclassificationcloud.models import BaseRequest
+# Load the gem
+import groupdocs_classification_cloud
 
+# Get Client Id and Client Secret from https://dashboard.groupdocs.cloud
+my_client_id = ""
+my_client_secret = ""
 
-class Classification(object):
-    APP_SID = '' # Put your appSid here
-    APP_KEY = '' # Put your appKey here
+# Create instance of the API
+configuration = groupdocs_classification_cloud.Configuration(my_client_id, my_client_secret)
+apiInstance = groupdocs_classification_cloud.ClassificationApi.from_config(configuration)
 
-    def __init__(self):
-        self.classification_api = ClassificationApi(configuration=Configuration(Classification.APP_SID,
-                                                                                Classification.APP_KEY))
+# Retrieve supported file-formats
+response = api.get_supported_file_formats()
 
-    # Classify text with IAB-2 taxonomy (Default)
-    def classify_raw_text(self):
-        request = classify_request(BaseRequest("Try text classification"))
-
-        result = self.classification_api.classify(request)
-        print("Result {}".format(result))
-
-
-classification = Classification()
-classification.classify_raw_text()
+# Print out supported file-formats
+print("Supported file-formats:")
+for format in response.formats:
+	print('{0} ({1})'.format(format.file_format, format.extension))
 
 ```
+
 
 [Test](test/) contain various examples of using the SDK.
 Please put your credentials into [Configuration](groupdocsclassificationcloud/configuration.py).
